@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #1c1c22;
+    width: 360px;
+}
+
+.container {
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-icon {
+    background: #2a2a33;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-icon:hover {
+    background: #34343f;
+}
+
+.empty {
+    color: #8a8a95;
+    font-size: 13px;
+    text-align: center;
+    padding: 24px 8px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+.item {
+    background: #2a2a33;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.badge.video { background: #3b7ddb; }
+.badge.pip { background: #2f9e5c; }
+
+.meta {
+    color: #b7b7c2;
+    font-size: 11px;
+}
+
+.url {
+    color: #e4e4ea;
+    font-size: 11px;
+    word-break: break-all;
+    margin: 6px 0;
+    max-height: 32px;
+    overflow: hidden;
+}
+
+.volume-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.volume-icon {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.volume-slider {
+    flex: 1;
+    accent-color: #4a7cff;
+}
+
+.btn {
+    width: 100%;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #4a7cff;
+    color: white;
+}
+
+.btn:hover {
+    background: #3a6cef;
+}
+
+.btn:disabled {
+    background: #444;
+    cursor: default;
+}
+
+.status-msg {
+    font-size: 11px;
+    margin-top: 4px;
+    color: #8a8a95;
+}
+
+.footnote {
+    color: #6c6c78;
+    font-size: 10.5px;
+    line-height: 1.4;
+    margin-top: 12px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VideoGrabber</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>VideoGrabber</h1>
+            <button id="rescanButton" class="btn-icon" title="Rescan this page">&#8635;</button>
+        </div>
+
+        <div id="empty" class="empty">No videos detected on this page yet.</div>
+        <div id="list" class="list"></div>
+
+        <div class="footnote">
+            Floats the video in a native, always-on-top Picture-in-Picture window. Nothing is
+            downloaded or extracted.
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
